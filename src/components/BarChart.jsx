@@ -28,7 +28,7 @@ ChartJS.register(
 
 const localizer = momentLocalizer(moment);
 
-const BarChart = ({  weeksData }) => {
+const BarChart = () => {
   const [events, setEvents] = useState([]);
   // const [totalHours, setTotalHours] = useState(0);
   const [barData, setBarData] = useState({
